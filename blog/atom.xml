@@ -10,7 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://hibaalhossen.github.io/blog</id>
 	<author>
-		<name>Hank Quinlan</name>
+		<name>Hiba Alhossen</name>
 		<email>hankquinlanhub@gmail.com</email>
 	</author>
 
