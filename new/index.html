@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MyRecipe</title>
+        <meta charset="utf-8">
+        
+        <!-- stylesheet-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <!--Html5 shiv--> 
+        <script src="JS/html5shiv.js"></script>
+    </head>
+    <body>
+        <!--في هذا المكان نكتب كل ماا يخص الترويسه للصفحة تبعنا -->
+        <header>
+            <!--يقوم بتقسيم الصفحه الى بلوكات رح نعمل 3 بلوكات للنصوص Div -->
+            <!--القسم اليسار-->
+            <div class="left">
+                <!-- القائمة المنسدلةul-->
+                <ul>
+                    <li><a href="">Popular Recipes</a></li>
+                    <li><a href="">Whats New</a></li>
+                </ul>   
+            </div>
+            <!-- القسم اليمين-->
+            <div class="right">
+                 <ul>
+                    <li><a href="">Categories</a></li>
+                    <li><a href="">Meal Ideas</a></li>
+                </ul>
+            </div>
+            <!-- القسم الوسطاني يلي فيه اللوغو-->
+            <div id="logo">
+                <img src="Images/chefs-hat.png">
+                <p>MyRecipes</p>
+            </div>
+        </header>
+        <!--معطيات الادخال -->
+        <div id="main">
+            <p> Join our email club</p>
+            <p> Sign up now!</p>
+            <form>
+                <input id="email" type="email" name="email" placeholder=" Enter Your Email">
+                
+                <input id="click" type="submit" value="CLICK HERE">
+            </form>
+            <!--الصورة الاولى -->
+        </div>
+        <div class="cf">
+            <div class="box">
+                <a href="">
+                    <img src="Images/pizza.jpg"/>
+                    <p>Vegeterian?</p>
+                </a>
+            </div>
+            <!-- الصورة الثانية-->
+            <div class="box middle">
+                <a href="">
+                    <img src="Images/pasta.jpg"/>
+                    <p>5 Minute Meals</p>
+                </a>
+            </div>
+            <!--الصورة الثالثة -->
+            <div class="box">
+                <a href="">
+                    <img src="Images/diet.jpg"/>
+                    <p>Diet Recipes</p>
+                </a>
+            </div>
+        </div>
+        <!--الجزء الاخير -->
+        <footer>
+            <img src="Images/cutlery.png"/>
+            <nav>
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Suggest a Recipe</a></li>
+                    <li><a href="">Privacy</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
