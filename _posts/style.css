@@ -1,0 +1,162 @@
+/*#main-navigation{
+    background-color: thistle;
+    width: 1250px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.week1{
+    width: 1250px;
+    height: 500;
+}
+.image-side{
+    background: white url(first\ week.jpg) no-repeat space 10% 40%;
+}
+.text-side{
+    float: right;
+    line-height: normal;
+    text-indent: 40px;
+} */
+/*base style*/
+body{
+    background-color: teal;
+    color:black;
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+/*Header*/
+header{
+    background-color: white;
+    height: 300px;
+    padding: 20px;
+}
+ul{
+    padding: 0;
+}
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}
+header li:first-child { border-right: 1px solid whitesmoke; }
+.left{ width: 320px;
+    float: left;
+ }
+.left ul {
+    padding-left: 30px;
+    padding-top: 90px;
+}
+.right {
+    width: 320px;
+    float: right;
+}
+.right ul {
+    float: right;
+    padding-right: 30px;
+    padding-top: 90px;
+}
+#logo {
+    
+    text-align: center;
+    font-size: 50px;
+}
+#logo p {
+    font-weight: bold;
+    color: teal;
+    margin: 0;
+}
+
+
+/*Main Body*/
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500;
+    padding: 20px;
+}
+/*adding border for article*/
+article {
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-color: lightblue;
+    box-shadow: 0 10px 20p rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+.avatar img {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    float: left;
+    height: 100px;
+    margin-right: 20px;
+    position: relative;
+}
+
+/*add spacing around the blockquotes*/
+blockquote {
+    margin-left: 0;
+    margin-right:0;
+    margin-top: 100px;
+}
+.like {
+    background-color: white;
+    float: right;
+    
+}
+button.like :hover {
+    opacity: 2;
+}
+/* Date */
+.date {
+    color: #a9a9a9;
+    margin-bottom: 0;
+    width: 90%;
+    float: left;
+    margin-top: 0;
+}
+.date time{
+    color: darkcyan;
+}
+footer{
+    margin-top: 20px;
+    height: 15px;
+}
+footer p {
+    columns: #a9a9a9;
+    font-size: 14px;
+    font-weight: 300;
+}
+h1{
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+h2{
+    color: #a9a9a9;
+    font-family: 'open-sans',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*Horizontal divider line*/
+hr{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+}
+footer {
+    background-color: ;
+}
