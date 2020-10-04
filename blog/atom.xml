@@ -11,7 +11,7 @@ layout: feed
 	<id>http://hibaalhossen.github.io/blog</id>
 	<author>
 		<name>Hiba Alhossen</name>
-		<email>hankquinlanhub@gmail.com</email>
+		<email>hiba.alhossen@powercoders.org</email>
 	</author>
 
 	{% for post in site.posts %}
