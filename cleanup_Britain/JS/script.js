@@ -1,0 +1,1 @@
+Document.getElementById("result").innerHTML = "hello js";
